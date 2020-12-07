@@ -6,6 +6,7 @@ describe.skip('_check', () => {
     sinon.spy(calculator, '_check');
   });
 
+
   afterEach(() => {
     calculator._check.restore();
   });
